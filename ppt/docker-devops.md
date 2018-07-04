@@ -20,21 +20,41 @@ files: /js/demo.js,/css/demo.css
 
 ![](/img/ms.png)
 
-[slide style="background-image:url('/img/money.jpeg')"]
+[slide]
 
-## 硬币游戏
+# 硬币游戏
+
+---
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 角色: 项目经理-> `产品->开发->测试->运维`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 分工: Manager(项目经理) &nbsp;&nbsp;`Worker(其他四类角色)`
+
+---
+
+工具: 硬币，计时器
 
 [slide]
 
 ## 持续集成与交付手把手实践
 
-### 环境
+---
 
 vagrant 虚拟环境和项目文件，文件比较大 5G 多
 
 ```sh
-echo 'test'
+⋊> ~/g/workshop_day1 tree -L 1                                                        02:02:28
+.
+├── Vagrantfile
+├── ci
+├── hello
+├── leanms_d1.box
+├── live
+└── prepare.sh
+
+3 directories, 3 files
 ```
+
+采用 vagrant 为了实验平台宿主机环境统一
 
 [slide]
 
